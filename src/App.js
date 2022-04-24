@@ -1,11 +1,16 @@
+import React from 'react';
+import Header from '../src/components/Header';
+import MainContent from '../src/components/Content';
+import Footer from '../src/components/Footer'
 
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <h1>Hello</h1>
+    <div>
+        <Header/>
+        <MainContent />
+        <Footer />
     </div>
-  );
+    
+  )
 }
-
-export default App;
